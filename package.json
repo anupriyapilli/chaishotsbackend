@@ -5,14 +5,13 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-"scripts": {
-  "prebuild": "rimraf dist || true",
-  "build": "npm run prebuild && tsc -p tsconfig.build.json",
-  "start": "node dist/src/main.js",
-  "start:dev": "nest start --watch",
-  "start:prod": "node dist/src/main.js"
-},
-
+  "scripts": {
+    "prebuild": "rimraf dist || true",
+    "build": "npm run prebuild && tsc -p tsconfig.build.json",
+    "start": "node dist/src/main.js",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/src/main.js"
+  },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
